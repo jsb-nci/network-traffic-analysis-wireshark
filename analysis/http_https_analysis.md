@@ -94,3 +94,14 @@ This enables detection of suspicious activity without decrypting payload.
 - HTTPS encrypts data but still leaks metadata
 - SNI plays a key role in identifying domains in encrypted traffic
 - Network monitoring relies heavily on metadata analysis
+
+## Wireshark Evidence
+
+### HTTP Traffic
+![HTTP Capture](filter_http.png)
+
+### TLS Traffic
+![TLS Capture](filter_tls.png)
+
+### SNI Analysis
+![SNI Capture](filter_SNI.png)
